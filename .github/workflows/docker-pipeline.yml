@@ -23,5 +23,5 @@ jobs:
           username: ${{ vars.OCI_USERNAME }}
           password: ${{ secrets.OCI_TOKEN }}
         - name: Docker Push
-          run: docker Push pavithrapalanisamy32/ml-model-22it028 .
+          run: docker push pavithrapalanisamy32/ml-model-22it028 .
         
